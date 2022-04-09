@@ -81,6 +81,7 @@ function check(){
             }
             else{
                 document.getElementById('dissimilarity').innerHTML = '';
+                document.getElementById('dissimilarity').style.color = 'green';
             }
         }
     }
