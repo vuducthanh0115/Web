@@ -80,7 +80,7 @@ function check(){
                 error_check = false;
             }
             else{
-                document.getElementById('dissimilarity').innerHTML = '';
+                document.getElementById('dissimilarity').innerHTML = 'Mật khẩu đã trùng khớp';
                 document.getElementById('dissimilarity').style.color = 'green';
             }
         }
