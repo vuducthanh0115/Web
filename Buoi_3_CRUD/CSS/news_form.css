@@ -1,0 +1,141 @@
+
+* {box-sizing: border-box}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+}
+h1, label{
+  color: DodgerBlue;
+}
+label{
+  font-size: 20px;
+}
+
+::placeholder {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 15px;
+  color: gray;
+  padding: 5px;
+}
+
+/* Full-width input fields */
+input[type=text],#content {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+
+input[type=text]:focus, #content:focus {
+  outline: none;
+}
+
+#content{
+  height: 250px;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(40, 182, 54);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.light-grey,{
+  color:#000;
+  background-color:#f1f1f1;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 25px;
+  /*max-width:500px;*/
+}
+.content-show {
+  margin-left: auto;
+  margin-right: auto;
+  /*max-width:500px;*/
+}
+.row{
+
+}
+.container{
+  padding:0.01em 16px;
+}
+.center{
+  text-align:center;
+}
+
+.card-4{
+  border-radius: 15px;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.white,.hover-white:hover{
+  color:#000;
+  background-color:#fff;
+}
+.col.m8{
+  width:20%;
+}
+.col.s12{
+  margin-right: 20px;
+  margin-top: 20px;
+  width:320px;
+}
+.button{
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.button:hover{
+  color:#000;
+  background-color:#ccc;
+}
+.border{
+  max-width: 90%;
+  border:1px solid #ccc;
+}
